@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: rgb(224,218,213);
+	font-family: "New Times Roman", serif;
+}
+header {
+	color: rgb(76,74,73);
+	text-indent: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 0;
+}
+nav{
+	text-align: right;
+	margin-right: 30px;
+	text-decoration: none;
+	letter-spacing: 0.15em;
+	word-spacing: 1em;
+}
+a:link {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+a:visited {
+	color: black;
+}
+#title {
+	font-size: 40px;
+}
+#slogan {
+	font-style: italic;
+}
+img {
+	width: 100%;
+}
+#intro {
+	font-size: 40px;
+	padding: 20px;
+	text-align: center;
+}
+h4 {
+	font-weight: normal;
+	font-size: 25px;
+	margin-left: 65px;
+	margin-top: 20px;
+}
+ul {
+	margin-left: 100px;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+#contact {
+	text-align: center;
+	padding: 15px;
+}
+footer {
+	text-align: center;
+	margin-bottom: 10px;
+}
