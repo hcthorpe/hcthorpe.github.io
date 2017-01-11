@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	font-family: "Arima Madurai", cursive;
+}
+#cursive {
+	font-family: Pacifico, cursive;
+}
+body{
+	background-color: rgb(224,218,213);
+	font-family: Assistant, sans-serif;
+	text-align: center;
+	font-size: 16px;
+}
+header {
+	color: rgb(76,74,73);
+	text-indent: 15px;
+	margin-top: 5px;
+	padding: 0;
+	text-align: left;
+}
+nav{
+	text-align: right;
+	margin-right: 30px;
+	text-decoration: none;
+	letter-spacing: 0.15em;
+	word-spacing: 1.25em;
+}
+a:link {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+a:visited {
+	color: black;
+}
+h1 {
+	font-size: 40px;
+}
+#slogan {
+	font-style: italic;
+}
+img {
+	width: 100%;
+}
+#intro {
+	font-size: 40px;
+	padding: 20px;
+	text-align: center;
+}
+.post {
+	width: 50%;
+	display: inline-block;
+}
+figure {
+	margin-top: 32px;
+}
+figcaption {
+	margin-bottom: 1em;
+}
+footer {
+	padding: 20px;
+	text-align: center;
+}
+#contact {
+	text-transform: uppercase;
+}
