@@ -5,12 +5,7 @@
 * {
 	margin: 0;
 	padding: 0;
-}
-header {
-	font-family: "Arima Madurai", cursive;
-}
-#cursive {
-	font-family: Pacifico, cursive;
+	box-sizing:border-box;
 }
 body{
 	background-color: rgb(224,218,213);
@@ -20,6 +15,7 @@ body{
 }
 header {
 	color: rgb(76,74,73);
+	font-family: "Arima Madurai", cursive;
 	text-indent: 15px;
 	margin-top: 5px;
 	padding: 0;
@@ -32,7 +28,16 @@ nav{
 	letter-spacing: 0.15em;
 	word-spacing: 1.25em;
 }
-a:link {
+footer {
+	padding: 20px;
+	text-align: center;
+}
+figure {
+	margin-top: 32px;
+	width: 50%;
+	display: inline-block;
+}
+a {
 	text-decoration: none;
 	color: black;
 	text-transform: uppercase;
@@ -43,31 +48,37 @@ a:visited {
 h1 {
 	font-size: 40px;
 }
-#slogan {
-	font-style: italic;
-}
-img {
+figure img {
 	width: 100%;
-}
-#intro {
-	font-size: 40px;
-	padding: 20px;
-	text-align: center;
-}
-.post {
-	width: 50%;
-	display: inline-block;
-}
-figure {
-	margin-top: 32px;
 }
 figcaption {
 	margin-bottom: 1em;
 }
-footer {
-	padding: 20px;
-	text-align: center;
-}
 #contact {
 	text-transform: uppercase;
+}
+#cursive {
+	font-family: Pacifico, cursive;
+}
+#splash {
+	background:url(../images/prusikpass.JPG);
+	background-size:cover;
+	/* padding: 5em 0 0; */
+	height: 75vh;
+}
+#splash div {
+    width: 50%;
+    height: 100%;
+    background: rgba(128, 0, 128, 0.44);
+    color: #fff;
+    padding: 2em;
+    text-align: left;
+}
+#slogan {
+	font-style: italic;
+}
+#intro {
+	font-size: 40px;
+	padding: 20px;
+	/* text-align: center; */
 }
