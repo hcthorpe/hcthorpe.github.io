@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	font-family: "Arima Madurai", cursive;
+	color: rgb(76,74,73);
+	text-indent: 15px;
+	margin-top: 5px;
+	/*padding: 0;*/
+	text-align: left;
+	background-color: #FFED74; /*to be removed*/
+	border: 1px black solid; /*to be removed*/
+	padding: 20px; /*to be removed*/
+}
+nav{
+	text-align: right;
+	/*padding: 10px 30px;*/
+	text-decoration: none;
+	letter-spacing: 0.15em;
+	word-spacing: 1.25em;
+	background-color: #E8C66A; /*to be removed*/
+	border: 1px black solid; /*to be removed*/
+	padding: 20px; /*to be removed*/
+}
+body{
+	background-color: rgb(224,218,213);
+	font-family: Assistant, sans-serif;
+	text-align: center;
+	font-size: 16px;
+}
+a:link {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+a:visited {
+	color: black;
+}
+h1 {
+	font-size: 60px;
+	font-family: "Arima Madurai", cursive;
+	background-image: url(../images/prusikpass.jpg);
+	background-size: cover;
+	height: 700px;
+	text-align: left;
+	padding: 10px 40px;
+	color: rgb(67,71,63);
+}
+img {
+	width: 100%;
+}
+article {
+	width: 30%;
+	/*padding: 10px;*/
+	margin: 20px;
+	float: left;
+	vertical-align: baseline;
+	position: relative;
+	text-align: left;
+	background-color: #E89C6C; /*to be removed*/
+	border: 1px black solid; /*to be removed*/
+	padding: 20px; /*to be removed*/
+}
+figcaption {
+	text-transform: uppercase;
+	padding: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+aside {
+	margin: 20px 15px 0 0;
+	display: inline-block;
+	float: right;
+	/*width: 28%;*/
+	width: 20%; /*to be removed*/
+	text-align: left;
+	/*padding: 0 0 15px 0;*/
+	background-color: #FFC675; /*to be removed*/
+	border: 1px black solid; /*to be removed*/
+	padding: 20px; /*to be removed*/
+}
+footer {
+	/*padding: 20px;*/
+	text-align: center;
+	clear: both;
+	/*background-color: rgb(176,171,167);*/
+	background-color: #FF957E; /*to be removed*/
+	border: 1px black solid; /*to be removed*/
+	padding: 20px; /*to be removed*/
+}
+.more {
+	font-weight: bold;
+	opacity: .5;
+	margin: 0 10px;
+}
+#cursive {
+	font-family: Pacifico, cursive;
+}
+#insta {
+	margin: 50px 0 0 0;
+}
+#contact {
+	text-transform: uppercase;
+}
