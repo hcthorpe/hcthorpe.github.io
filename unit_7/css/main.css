@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Arsenal');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	font-family: "Arima Madurai", cursive;
+	color: rgb(76,74,73);
+	padding: .8em;
+	/*background-color: #fff;*/
+}
+nav{
+	text-align: right;
+	padding: 10px 30px;
+	text-decoration: none;
+	letter-spacing: 0.15em;
+	word-spacing: 1.25em;
+}
+body{
+	background-color: rgb(224,218,213);
+	font-family: Assistant, sans-serif;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+a:link {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+	color: #71eeb8;
+}
+h1 {
+	font-size: 80px;
+	font-family: "Arima Madurai", cursive;
+	background-image: url(../images/prusikpass.jpg);
+	background-size: cover;
+	height: 700px;
+	text-align: left;
+	padding: 10px 40px;
+	color: rgb(67,71,63);
+	line-height: 2em;
+}
+img {
+	width: 100%;
+}
+article {
+	width: 425px;
+	padding: 5px 10px;
+	margin: 20px;
+	float: left;
+	text-align: left;
+	box-sizing: border-box;
+}
+figcaption {
+	text-transform: uppercase;
+	padding: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+div p {
+	padding: 10px;
+}
+footer {
+	padding: 20px;
+	text-align: center;
+	clear: both;
+	background-color: rgb(176,171,167);
+}
+.more {
+	font-weight: bold;
+	opacity: .5;
+	padding: 0 10px 0 10px;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#shasta {
+	float: left;
+}
+#cursive {
+	font-family: Pacifico, cursive;
+}
+#wrapper {
+	width: 1401px;
+	margin: 30px auto;
+}
+#posts {
+	text-transform: uppercase;
+	border: solid .75px;
+	font-weight: normal;
+	font-size: 1.5em;
+	padding: 5px 10px;
+	color: rgb(94,94,94);
+	margin: 20px 0;
+}
+#intro {
+	background: url(../images/shasta.jpg);
+	background-size: cover;
+	height: 960px;
+	margin: 30px 0 30px 0;
+}
+#intro div{
+	width: 25%;
+	height: 832px;
+	background: rgba(40,48,48,.80);
+	color: rgb(255,255,255);
+	padding: 2em;
+	text-align: left;
+	float: right;
+	font-size: 2em;
+	font-family: Arsenal, sans-serif;
+	line-height: 1.5em;
+
+}
+#quote {
+	font-family: "Shadows Into Light", cursive;
+	font-size: 1em;
+	padding: 40px 0 0 0;
+}
+#contact {
+	text-transform: uppercase;
+	padding: .5em;
+	color: #fff;
+	font-size: 1.25em;
+	border: solid 2px;
+	margin: 2em 31em;
+	background-color: rgba(0,0,0,.5);
+}
+#contact a {
+	color: #fff;
+	font-weight: bold;
+}
