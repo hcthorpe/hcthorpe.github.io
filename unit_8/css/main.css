@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Arsenal');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	font-family: "Arima Madurai", cursive;
+	color: rgb(76,74,73);
+	padding: .8em;
+}
+nav{
+	text-align: right;
+	padding: 0.625em 1.875em;
+	text-decoration: none;
+	letter-spacing: 0.15em;
+	word-spacing: 1.25em;
+}
+body{
+	background-color: rgb(224,218,213);
+	font-family: Assistant, sans-serif;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+a:link {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+	color: #71eeb8;
+}
+h1 {
+	font-size: 5em;
+	font-family: "Arima Madurai", cursive;
+	background-image: url(../images/prusikpass.jpg);
+	background-size: cover;
+	height: 8.75em;
+	text-align: left;
+	padding: 0.01em .5em;
+	color: rgb(67,71,63);
+	line-height: 2em;
+}
+img {
+	width: 100%;
+}
+article {
+	width: 29%;
+	padding: 1%;
+	margin: 1%;
+	float: left;
+	text-align: left;
+	/*box-sizing: border-box;*/
+}
+figcaption {
+	text-transform: uppercase;
+	padding: 0.625em;
+	font-weight: bold;
+	text-align: center;
+}
+div p {
+	padding: .5em;
+}
+footer {
+	padding: 1.25em;
+	text-align: center;
+	clear: both;
+	background-color: rgb(176,171,167);
+}
+.more {
+	font-weight: bold;
+	opacity: .5;
+	padding: 0 .625em 0 .625em;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#shasta {
+	float: left;
+}
+#cursive {
+	font-family: Pacifico, cursive;
+}
+#wrapper {
+	width: 99%;
+	margin: auto;
+}
+#posts {
+	text-transform: uppercase;
+	border: solid .046875em;
+	font-weight: normal;
+	font-size: 1.5em;
+	padding: .3125em .625em;
+	margin: 1.25em 0;
+}
+#intro {
+	background: url(../images/shasta.jpg);
+	background-size: cover;
+	margin: 1.875em 0 1.875em 0
+	;
+}
+#intro div{
+	width: 25%;
+	background: rgba(40,48,48,.80);
+	color: rgb(255,255,255);
+	padding: .5em 2em;
+	text-align: left;
+	float: right;
+	font-size: 1.95em;
+	font-family: Arsenal, sans-serif;
+	line-height: 1.5em;
+}
+#quote {
+	font-family: "Shadows Into Light", cursive;
+	font-size: 1em;
+}
+#contact {
+	text-transform: uppercase;
+	padding: 1%;
+	color: #fff;
+	font-size: 1.25em;
+	border: solid;
+	margin: 1% 43%;
+	background-color: rgba(0,0,0,.5);
+	display: block;
+}
+#contact a {
+	color: #fff;
+	font-weight: bold;
+}
+
+@media only screen and (min-width: 1247px) and (max-width: 1408px) {
+	#intro div {
+		font-size: 1.8em;
+		height: 32.4em;
+	}
+}
+@media only screen and (min-width: 1247px) {
+	#small {
+		display: none;
+	}
+}
+@media only screen and (max-width: 1246px) {
+	#intro {
+		background: none;
+		background-size: none;
+		height: none;
+	}
+	#intro div {
+		float: none;
+		width: 90%;
+		padding: 5%;
+		height: none;
+		font-size: 1.5em;
+	}
+	article {
+		width: 46%;
+		padding: 1%
+		margin: 1%;
+	}
+	#posts {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 1021px) {
+	h1 {
+		font-size: 3em;
+	}
+	nav {
+		font-size: .8em;
+	}
+	#contact {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 833px) {
+	article {
+		float: none;
+		width: 90%;
+		padding: 2% .6%;
+		margin: 3% 4.4%;
+	}
+	#contact {
+		font-size: .8em;
+		margin: 1% 39%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	h1 {
+		font-size: 2em;
+	}
+	footer {
+		font-size: .8em;
+	}
+	#intro div {
+		font-size: 1em;
+	}
+}
+@media only screen and (max-width: 401px) {
+	h1 {
+		font-size: 1.4em;
+	}
+}
